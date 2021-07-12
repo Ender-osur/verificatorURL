@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  <!--Con el method podemos definir si los parametros o elementos que se ingresen se mostrarán en la URL. Con "post" irá ocultado, con "get" irá visible.-->
+<form class="" action="resultado.html" method="post">
+  <h3>Introduce tu nombre y tus apellidos</h3>
+  <!--El input se utiliza para pedir datos. Type es el tipo de información que le podemos ingresar, name es el nombre de la variable a la que le asignamos
+los datos, value es el valor que tendra esa variable (si la dejamos en blanco la formulario comienza sin ningún caracter), tambien puede cambiarse el value
+por un placeholder para que en la casilla donde se introducirá la información sepa qué debe ir (es un comentario detnro del campo disposible para inserción) -->
+  <input type="text" name="nombre" placeholder="Pon tu nombre" required>
+  <input type="text" name="apellidos" placeholder="Pon tu apellidos" required>
+  <input type="submit" name="enviar" value="enviar">
+</form>
+</body>
+</html>

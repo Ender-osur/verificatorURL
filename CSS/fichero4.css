@@ -1,0 +1,32 @@
+
+/* Este fichero define el estilo del fichero html*/
+
+
+body{
+  margin: auto;
+  border: 30px solid grey;
+  text-align: center;
+  font-variant: small-caps;
+}
+#párrafo1{
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+  margin-right: 30%;
+  margin-left: 30%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+input{
+  font-size: 1.2em;
+}
+label{
+  font-size: 1.2em;
+}
+#bottom{
+  background-color: grey;
+  outline: round;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}

@@ -1,0 +1,23 @@
+/* Esto es un fichero de estilo CSS*/
+h1{
+  color:green;
+}
+body{
+  background-image: url(vangogh.jpg);
+  background-size: 1200px 800px;
+  background-position: left;
+  background-attachment: scroll;
+  background-clip: border-box;
+  backface-visibility: hidden;
+}
+p{
+  color:#B7452C;
+  border: 1px solid blue;
+
+
+}
+
+/* este comando rgb(color rojo, color verde, color azul, nivel de transparencia de 0 a 1 )*/
+li{
+  color:rgba(1, 100, 1, 1);
+}

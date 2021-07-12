@@ -1,0 +1,29 @@
+/* Estilos para fuentes, tamaños, etc*/
+
+#body{
+  margin: 2px 20px 2px 20px;
+  border:10px solid grey;
+  width: fit-content;
+  padding: 5px;
+  background-blend-mode: color;
+}
+h1{
+  font-family: fantasy;
+  font-size: 200px;
+  text-decoration: overline underline;
+  text-align: center;
+  font-weight: bolder;
+  text-overflow: inherit;
+  text-transform: inherit;
+}
+#párrafo2{
+  font-style: normal;
+  text-shadow: 1px 1px 1px white;
+  font-size: 18px;
+  font-family: serif;
+  text-align: justify;
+}
+#párrafo3{
+  border: 2px solid lightgreen;
+  width: fit-content;
+}
